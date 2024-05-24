@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Application.Client" target="21" />
+      <module name="Application.Client.main" target="21" />
+      <module name="Application.Client.test" target="21" />
+      <module name="Application.main" target="21" />
+      <module name="Application.Model" target="21" />
+      <module name="Application.Model.main" target="21" />
+      <module name="Application.Model.test" target="21" />
+      <module name="Application.Networking" target="21" />
+      <module name="Application.Networking.main" target="21" />
+      <module name="Application.Networking.test" target="21" />
+      <module name="Application.Persistence" target="21" />
+      <module name="Application.Persistence.main" target="21" />
+      <module name="Application.Persistence.test" target="21" />
+      <module name="Application.Server" target="21" />
+      <module name="Application.Server.main" target="21" />
+      <module name="Application.Server.test" target="21" />
+      <module name="Application.Service" target="21" />
+      <module name="Application.Service.main" target="21" />
+      <module name="Application.Service.test" target="21" />
+      <module name="Application.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

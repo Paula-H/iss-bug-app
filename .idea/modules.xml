@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Application.iml" filepath="$PROJECT_DIR$/Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client/Application.Client.iml" filepath="$PROJECT_DIR$/.idea/modules/Client/Application.Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client/Application.Client.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Client/Application.Client.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client/Application.Client.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Client/Application.Client.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/Application.Model.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/Application.Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/Application.Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/Application.Model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/Application.Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/Application.Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/Application.Networking.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/Application.Networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/Application.Networking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/Application.Networking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/Application.Networking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/Application.Networking.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/Application.Persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/Application.Persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/Application.Persistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/Application.Persistence.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/Application.Persistence.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/Application.Persistence.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/Application.Server.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/Application.Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/Application.Server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/Application.Server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/Application.Server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/Application.Server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Service/Application.Service.iml" filepath="$PROJECT_DIR$/.idea/modules/Service/Application.Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Service/Application.Service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Service/Application.Service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Service/Application.Service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Service/Application.Service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/iss-bug-app.iml" filepath="$PROJECT_DIR$/.idea/iss-bug-app.iml" />
+    </modules>
+  </component>
+</project>

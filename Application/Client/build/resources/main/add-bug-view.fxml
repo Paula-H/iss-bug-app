@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.additional.AddBugController">
+   <children>
+      <Label layoutX="194.0" layoutY="20.0" text="Add a New Bug">
+         <font>
+            <Font name="Bodoni MT Black" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="189.0" layoutY="80.0" text="Name :">
+         <font>
+            <Font name="Bodoni MT Black" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="262.0" layoutY="77.0" />
+      <Label layoutX="140.0" layoutY="134.0" text="Description :">
+         <font>
+            <Font name="Bodoni MT Black" size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="description" layoutX="260.0" layoutY="131.0" prefHeight="139.0" prefWidth="200.0" />
+      <Button layoutX="234.0" layoutY="289.0" mnemonicParsing="false" onAction="#handleAddBug" text="Add New Bug">
+         <font>
+            <Font name="Bodoni MT Black" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="status" layoutX="163.0" layoutY="335.0" text="Status : ">
+         <font>
+            <Font name="Bodoni MT Black" size="16.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="progressBar" layoutX="237.0" layoutY="336.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

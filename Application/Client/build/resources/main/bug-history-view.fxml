@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.additional.BugHistoryController">
+   <children>
+      <Label layoutX="217.0" layoutY="32.0" text="Bug History">
+         <font>
+            <Font name="Bodoni MT Black" size="27.0" />
+         </font>
+      </Label>
+      <ListView fx:id="bugsListView" layoutX="93.0" layoutY="90.0" prefHeight="256.0" prefWidth="414.0" />
+   </children>
+</AnchorPane>

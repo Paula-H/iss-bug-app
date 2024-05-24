@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.LoginController">
+   <children>
+      <PasswordField fx:id="passwordField" layoutX="68.0" layoutY="250.0" />
+      <TextField fx:id="usernameField" layoutX="68.0" layoutY="200.0" />
+      <Label layoutX="68.0" layoutY="112.0" prefHeight="49.0" prefWidth="149.0" text="Log In">
+         <font>
+            <Font name="Bodoni MT Black" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="181.0" text="Username">
+         <font>
+            <Font name="Bodoni MT Black" size="16.0" />
+         </font></Label>
+      <Label layoutX="69.0" layoutY="231.0" text="Password">
+         <font>
+            <Font name="Bodoni MT Black" size="16.0" />
+         </font></Label>
+      <Button layoutX="106.0" layoutY="303.0" mnemonicParsing="false" onAction="#handleLogIn" text="Log in">
+         <font>
+            <Font name="Bodoni MT Black" size="16.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
