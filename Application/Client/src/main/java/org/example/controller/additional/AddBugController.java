@@ -22,9 +22,18 @@ public class AddBugController {
     public ProgressBar progressBar;
 
     public void handleAddBug(){
+        if(name.getText().equals("") || description.getText().equals("")){
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error!");
+            alert.setHeaderText("Could not add bug!");
+            alert.setContentText("Name and description cannot be empty!");
+            alert.showAndWait();
+            return;
+        }
         Task<Void> task = new Task<Void>() {
             @Override
             protected Void call() throws Exception {
+
                 try{
                     service.addNewBug(name.getText(), description.getText(), loggedTester);
                 }
